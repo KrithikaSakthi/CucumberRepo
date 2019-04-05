@@ -5,7 +5,6 @@
   <version>0.0.1-SNAPSHOT</version>
   
   <dependencies>
-
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -49,7 +48,5 @@
 			<version>3.0.0-M3</version>
 			<type>maven-plugin</type>
 		</dependency>
-
-
 	</dependencies>
 </project>
