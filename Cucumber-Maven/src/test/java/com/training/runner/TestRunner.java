@@ -18,7 +18,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "Features/salesforce.feature", glue = {"com.training.step"}, 
-plugin = {"pretty", "html:target/cucumber"},
+plugin = {"pretty", "html:target/cucumber","html:target/cucumber","json:test-out.json"},
 monochrome = true)
 
 
